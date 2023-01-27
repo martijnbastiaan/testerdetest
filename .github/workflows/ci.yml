@@ -1,0 +1,8 @@
+name: CI
+on: [push]
+
+jobs:
+  ok:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: echo OK
